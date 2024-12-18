@@ -1,35 +1,26 @@
 package dev.cleber.exercicios;
 
-import java.util.Scanner;
-
 public class Exercicio4 {
 	
 	public static void main(String[] args) {
 		
-		/*calcular a elevação de numeros ao quadrado*/
+		double numero = 10;
 		
-		int expoente = 2;
-	    
-		int numeroElevadoAoQuadrado = 2;
-
-	    double resultado = Math.pow(numeroElevadoAoQuadrado, expoente);
-	    
-	    System.out.println("O resultado da elevação é " + resultado);
-	    
-	    /*scanner*/
-
-	    Scanner exponenciacao = new Scanner(System.in);
-
-	    System.out.println("Digite um numero.");
-	    int numeroElevado = exponenciacao.nextInt();
-
-	    double resultadoElevado = Math.pow(numeroElevado, expoente);
-
-	    System.out.println("O resultado da elevação é " + resultadoElevado);
-
-	    exponenciacao.close();
+		boolean isPositivo = numero > 0;
+		boolean isNegativo = numero < 0;
+		boolean isZero = numero == 0;
 		
-	}	
+		if(isPositivo) {
+			System.out.println("O número "+ isPositivo+ " é positivo.");
+		}
+		
+		if(isNegativo) {
+			System.out.println("O número "+ isNegativo+ " é positivo.");
+		}
+		
+		if(isZero) {
+			System.out.println("O número "+ isZero+ " é positivo.");
+		}
+	}
+
 }
-
-
