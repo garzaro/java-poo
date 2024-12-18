@@ -1,26 +1,47 @@
 package dev.cleber.exercicios;
 
-public class Exercicio4 {
-	
-	public static void main(String[] args) {
-		
-		double numero = 10;
-		
-		boolean isPositivo = numero > 0;
-		boolean isNegativo = numero < 0;
-		boolean isZero = numero == 0;
-		
-		if(isPositivo) {
-			System.out.println("O número "+ isPositivo+ " é positivo.");
-		}
-		
-		if(isNegativo) {
-			System.out.println("O número "+ isNegativo+ " é positivo.");
-		}
-		
-		if(isZero) {
-			System.out.println("O número "+ isZero+ " é positivo.");
-		}
-	}
+import java.util.Scanner;
 
+public class Exercicio4 {
+
+	public static void main(String[] args) {
+
+		double numero = 0;
+
+		if (numero > 0) {
+
+			System.out.println("O número " + numero + " é positivo.");
+
+		} else if (numero < 0) {
+
+			System.out.println("O número " + numero + " é negativo.");
+
+		}else {
+			
+			System.out.println("O número é zero.");
+			
+		}
+		
+		/*scanner*/
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Digite um número.");
+		double number = scanner.nextDouble();
+		
+		if (number > 0) {
+
+			System.out.println("O número " + number + " é positivo.");
+
+		} else if (number < 0) {
+
+			System.out.println("O número " + number + " é negativo.");
+
+		}else {
+			
+			System.out.println("O número é zero.");
+			
+		}
+		scanner.close();
+	}
 }
