@@ -2,13 +2,13 @@ package dev.cleber.exercicios;
 
 import java.util.Scanner;
 
-public class Exercicio4 {
+public class Exercicio2_1 {
 	
 	public static void main(String[] args) {
 		
 		/*calcular a elevação de numeros ao quadrado*/
 		
-		int expoente = 2;
+		int expoente = 5;
 	    
 		int numeroElevadoAoQuadrado = 2;
 
