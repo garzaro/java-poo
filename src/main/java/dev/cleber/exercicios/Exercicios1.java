@@ -6,7 +6,8 @@ public class Exercicios1 {
 
     public static void main(String[] args) {
 
-        /*fazer a soma entre dois numeros*/
+        /*1. Escreva um programa para declarar duas variáveis do tipo inteiro e calcular sua soma.
+*/
 
         int numero1 = 10;
         int numero2 = 15;

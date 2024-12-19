@@ -6,7 +6,7 @@ public class Exercicio2 {
 
 	public static void main(String[] args) {
 
-		/* calcular a raiz quadrada de um determinado numero */
+		/* 2. Escreva um programa que declare uma variável do tipo double e calcule o quadrado desse número.*/
 
 		int quadrado = 25;
 

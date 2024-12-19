@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio5 {
 	
-	/*conversao de grau celsius para fahrenheit*/
+	/*5. Escreva um programa Java que converta graus Celsius para Fahrenheit.*/
 
 	public static void main(String[] args) {
 

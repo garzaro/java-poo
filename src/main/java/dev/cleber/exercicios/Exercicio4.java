@@ -3,6 +3,8 @@ package dev.cleber.exercicios;
 import java.util.Scanner;
 
 public class Exercicio4 {
+	
+	/*4. Escreva um programa que determine se um número é positivo, negativo ou zero.*/
 
 	public static void main(String[] args) {
 

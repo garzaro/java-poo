@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio6 {
 
-	/* calcluluar o perimetro e a area de um retangulo */
+	/*6. Escreva um programa que calcule o perímetro e a área de um retângulo.*/
 
 	public static void main(String[] args) {
 		double largura = 10;

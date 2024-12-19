@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercicio3 {
     public static void main(String[] args) {
 
-        /*calcular a media entre tres numeros*/
+        /*3. Escreva um programa Java que calcule a média de três números inteiros.*/
 
         int numero1, numero2, numero3;
         numero1 = 10;
