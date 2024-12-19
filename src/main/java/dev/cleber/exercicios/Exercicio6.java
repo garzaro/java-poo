@@ -13,6 +13,8 @@ public class Exercicio6 {
 		double area = largura * altura;
 
 		System.out.println("O perimetro é " + perimetro + " e a area é " + area);
+		
+		/*scanner*/
 
 		Scanner scanner = new Scanner(System.in);
 
