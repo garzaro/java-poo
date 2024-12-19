@@ -20,7 +20,9 @@ public class Exercicio7 {
 		} else {
 			System.out.println("Voce poderá votar esse ano.");
 		}
-
+		
+		/*scanner*/
+		
 		Scanner voto = new Scanner(System.in);
 
 		System.out.println("Digite seu ano de nascimento.");
