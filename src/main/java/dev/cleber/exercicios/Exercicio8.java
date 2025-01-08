@@ -44,6 +44,8 @@ public class Exercicio8 {
 
 		int quantidadeDeFrutas = feira.nextInt();
 
+		double precoUnintario;
+		
 		double valorDaCompraComDesconto = quantidadeDeFrutas * precoComDesconto;
 
 		double economizr = desconto * 12;
