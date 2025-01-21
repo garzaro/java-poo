@@ -34,7 +34,7 @@ public class LoopWhile {
 		int numeroDigitado = counter.nextInt();
 		int valor = 1;
 
-		while (valor <= numeroDigitado) {
+		while (valor <= numeroDigitado) { // expressao V ou F
 			
 			/* imprimir apenas numero par = 0 */
 			/* imprimir apenas numero impar = 1 
